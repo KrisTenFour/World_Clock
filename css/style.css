@@ -1,7 +1,96 @@
+body {
+  background: url("../media/background.jpg");
+  background-position: center;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
 h1 {
+  max-width: 100%;
+  display: block;
+  margin: 30px auto 0;
+  border-radius: 4mm;
+  box-shadow: rgba(0, 0, 0, 0.607) 0px 5px 15px;
+  background: linear-gradient(
+    57.4deg,
+    rgb(255, 243, 77) 4.6%,
+    rgb(246, 130, 184) 26%,
+    rgba(250, 152, 220, 0.938) 49.1%,
+    rgba(15, 191, 255, 0.954) 86.5%
+  );
   text-align: center;
+  font-size: 52px;
+}
+
+h2 {
+  margin: 20px auto;
+  text-align: center;
+  font-size: 46px;
+  font-weight: normal;
+}
+
+h2 small {
+  font-size: 28px;
+}
+
+h3 {
+  margin: 0;
+}
+
+.container {
+  max-width: 750px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  background-color: #ffffffe1;
+  border-radius: 4mm;
+  box-shadow: rgba(0, 0, 0, 0.607) 0px 5px 15px;
+}
+
+select {
+  width: 50%;
+  display: block;
+  margin: 10px auto 35px;
+  padding: 5px;
+  border-radius: 1mm;
+}
+
+.city-times-container {
+  max-width: 80%;
+  margin: 20px auto 30px;
+  padding: 10px 30px;
+  border-radius: 4mm;
+  background-color: rgba(240, 239, 239, 0.89);
+}
+
+.city {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 10px;
+  border-bottom: 2px dotted rgba(0, 0, 0, 0.2);
+}
+
+.city:last-child {
+  border-bottom: none;
+}
+
+.city-name {
+  font-size: 30px;
+}
+
+.city-date {
+  opacity: 0.7;
+}
+
+.city-time {
+  font-size: 38px;
+}
+
+.city-time small {
+  font-size: 18px;
 }
 
 footer {
   text-align: center;
+  font-size: 14px;
 }

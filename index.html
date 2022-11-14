@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/style.css" />
     <title>World clock 🕐🌐</title>
   </head>
@@ -11,7 +17,10 @@
     <div class="container">
       <h1>World Clock</h1>
       <div class="wrapper">
-        <div id="current-time">21:58:20 PM</div>
+        <h2>
+          21:58:20
+          <small>PM</small>
+        </h2>
         <form action="#">
           <select name="city" id="cities">
             <option value="" selected>Select a city...</option>
@@ -22,18 +31,33 @@
         <div class="city-times-container">
           <div class="city">
             <div>
-              <h2 id="city-name">London</h2>
-              <div id="city-date">August 15, 2022</div>
+              <h3 class="city-name">London</h3>
+              <div class="city-date">August 15, 2022</div>
             </div>
-            <div id="city-time">12:58:20 AM</div>
+            <div class="city-time">
+              12:58:20
+              <small>AM</small>
+            </div>
+          </div>
+          <div class="city">
+            <div>
+              <h3 class="city-name">Paris</h3>
+              <div class="city-date">August 15, 2022</div>
+            </div>
+            <div class="city-time">
+              12:58:20
+              <small>AM</small>
+            </div>
           </div>
         </div>
       </div>
     </div>
     <footer>
-      This page was coded by Kristen Namigai 🧝🏻‍♀️ and is
-      <a href="https://github.com/KrisTenFour/World_Clock" target="_blank"
-        >open-sourced on GitHub</a
+      This page was coded by
+      <strong>Kristen Namigai</strong>
+      🧝🏻‍♀️ and is
+      <a href="https://github.com/KrisTenFour/World_Clock" target="_blank">
+        <strong>open-sourced on GitHub</strong></a
       >.
     </footer>
     <script src="javascript/script.js"></script>
