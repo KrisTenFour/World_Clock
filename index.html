@@ -5,10 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-    <title>World clocks</title>
+    <title>World clock 🕐🌐</title>
   </head>
   <body>
-    <h1>World Clock</h1>
+    <div class="container">
+      <h1>World Clock</h1>
+      <div class="wrapper">
+        <div id="current-time">21:58:20</div>
+        <form action="#">
+          <select name="city" id="cities">
+            <option value="" selected>Select a city...</option>
+            <option value="london">London</option>
+            <option value="rio-de-janeiro">Rio de Janeiro</option>
+          </select>
+        </form>
+        <div class="city-times-container">
+          <div class="city">
+            <h2 id="city-name">London</h2>
+            <div id="city-date">August 15, 2022</div>
+            <div id="city-time">12:58:20</div>
+          </div>
+          <div class="city">
+            <h2 id="city-name">Rio de Janeiro</h2>
+            <div id="city-date">August 15, 2022</div>
+            <div id="city-time">12:58:20</div>
+          </div>
+        </div>
+      </div>
+    </div>
     <footer>
       This page was coded by Kristen Namigai 🧝🏻‍♀️ and is
       <a href="https://github.com/KrisTenFour/World_Clock" target="_blank"
