@@ -1,29 +1,39 @@
 body {
-  background: url("../media/background.jpg");
+  background: url("../media/body-background.jpg") fixed;
+  background-repeat: no-repeat;
   background-position: center;
+  background-size: cover;
   font-family: "Noto Sans JP", sans-serif;
 }
 
+.container {
+  max-width: 750px;
+  margin: 50px auto 10px;
+  background-color: #fc5454;
+  border: 1mm solid black;
+  box-shadow: rgba(0, 0, 0, 0.607) 0px 5px 20px;
+}
+
 h1 {
-  max-width: 100%;
+  max-width: 60%;
   display: block;
   margin: 30px auto 0;
-  border-radius: 4mm;
-  box-shadow: rgba(0, 0, 0, 0.607) 0px 5px 15px;
-  background: linear-gradient(
-    57.4deg,
-    rgb(255, 243, 77) 4.6%,
-    rgb(246, 130, 184) 26%,
-    rgba(250, 152, 220, 0.938) 49.1%,
-    rgba(15, 191, 255, 0.954) 86.5%
-  );
+  transform: skew(-15deg);
+  border: 1mm solid black;
+  background: #ffffff;
   text-align: center;
   font-size: 52px;
 }
 
 h2 {
+  width: 40%;
   margin: 20px auto;
   text-align: center;
+  border: 1mm solid black;
+  border-right: 2mm solid black;
+  border-bottom: 2mm solid black;
+  border-radius: 4mm;
+  background: #ffffffd8;
   font-size: 46px;
   font-weight: normal;
 }
@@ -36,22 +46,12 @@ h3 {
   margin: 0;
 }
 
-.container {
-  max-width: 750px;
-  margin: 0 auto;
-}
-
-.wrapper {
-  background-color: #ffffffe1;
-  border-radius: 4mm;
-  box-shadow: rgba(0, 0, 0, 0.607) 0px 5px 15px;
-}
-
 select {
   width: 50%;
   display: block;
-  margin: 10px auto 35px;
+  margin: 10px auto 25px;
   padding: 5px;
+  border: 0.2mm solid rgb(52, 52, 52);
   border-radius: 1mm;
 }
 
@@ -59,8 +59,11 @@ select {
   max-width: 80%;
   margin: 20px auto 30px;
   padding: 10px 30px;
+  border: 0.6mm solid black;
+  border-right: 2mm solid black;
+  border-bottom: 2mm solid black;
   border-radius: 4mm;
-  background-color: rgba(240, 239, 239, 0.89);
+  background-color: rgb(232, 230, 230);
 }
 
 .city {
@@ -93,4 +96,8 @@ select {
 footer {
   text-align: center;
   font-size: 14px;
+}
+
+footer small {
+  font-size: 11px;
 }
