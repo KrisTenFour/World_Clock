@@ -53,6 +53,7 @@ select {
   padding: 5px;
   border: 0.2mm solid rgb(52, 52, 52);
   border-radius: 1mm;
+  font-family: "Noto Sans JP", sans-serif;
 }
 
 .cities-container {
