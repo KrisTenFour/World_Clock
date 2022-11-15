@@ -55,7 +55,7 @@ select {
   border-radius: 1mm;
 }
 
-.city-times-container {
+.cities-container {
   max-width: 80%;
   margin: 20px auto 30px;
   padding: 10px 30px;
@@ -77,19 +77,19 @@ select {
   border-bottom: none;
 }
 
-.city-name {
+.name {
   font-size: 30px;
 }
 
-.city-date {
+.date {
   opacity: 0.7;
 }
 
-.city-time {
+.time {
   font-size: 38px;
 }
 
-.city-time small {
+.time small {
   font-size: 18px;
 }
 
