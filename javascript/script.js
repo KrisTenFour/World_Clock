@@ -17,14 +17,14 @@ function updateCitiesTime() {
     .tz("Europe/London")
     .format("H:mm:ss [<small>] A[</small>]");
 
-  //Paris
-  let parisElement = document.querySelector("#paris");
-  let parisDateElement = parisElement.querySelector(".date");
-  let parisTimeElement = parisElement.querySelector(".time");
+  //Cancún
+  let cancunElement = document.querySelector("#cancun");
+  let cancunDateElement = cancunElement.querySelector(".date");
+  let cancunTimeElement = cancunElement.querySelector(".time");
 
-  parisDateElement.innerHTML = moment().format("MMMM Do, YYYY");
-  parisTimeElement.innerHTML = moment()
-    .tz("Europe/Paris")
+  cancunDateElement.innerHTML = moment().format("MMMM Do, YYYY");
+  cancunTimeElement.innerHTML = moment()
+    .tz("America/Cancun")
     .format("H:mm:ss [<small>] A[</small>]");
 }
 
