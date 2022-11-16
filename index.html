@@ -11,13 +11,14 @@
       rel="stylesheet"
     />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.39/moment-timezone-with-data-1970-2030.min.js"></script>
     <link rel="stylesheet" href="css/style.css" />
     <title>World clock 🕐🌐</title>
   </head>
   <body>
     <div class="container">
       <h1>World Clock</h1>
-      <h2>
+      <h2 id="current-time">
         21:58:20
         <small>PM</small>
       </h2>
@@ -25,29 +26,23 @@
         <select name="city" id="cities">
           <option value="" selected>Select a city...</option>
           <option value="london">London</option>
-          <option value="rio-de-janeiro">Rio de Janeiro</option>
+          <option value="rio-de-janeiro">Paris</option>
         </select>
       </form>
       <div class="cities-container">
-        <div class="city">
+        <div class="city" id="london">
           <div>
             <h3 class="name">London</h3>
-            <div class="date">August 15, 2022</div>
+            <div class="date"></div>
           </div>
-          <div class="time">
-            12:58:20
-            <small>AM</small>
-          </div>
+          <div class="time"></div>
         </div>
-        <div class="city">
+        <div class="city" id="paris">
           <div>
             <h3 class="name">Paris</h3>
-            <div class="date">August 15, 2022</div>
+            <div class="date"></div>
           </div>
-          <div class="time">
-            12:58:20
-            <small>AM</small>
-          </div>
+          <div class="time"></div>
         </div>
       </div>
     </div>
