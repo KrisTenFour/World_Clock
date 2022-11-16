@@ -18,8 +18,10 @@ h1 {
   max-width: 60%;
   display: block;
   margin: 30px auto 0;
-  transform: skew(-15deg);
+  transform: skew(-13deg);
   border: 1mm solid black;
+  border-right: 2mm solid black;
+  border-bottom: 2mm solid black;
   background: #ffffff;
   text-align: center;
   font-size: 52px;
