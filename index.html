@@ -23,27 +23,15 @@
         <small>PM</small>
       </h2>
       <form action="#">
-        <select name="city" id="cities">
+        <select name="city" id="cities-select">
           <option value="" selected>Select a city...</option>
-          <option value="london">London</option>
-          <option value="cancun">Cancún</option>
+          <option value="Asia/Tokyo">Tokyo</option>
+          <option value="America/Vancouver">Vancouver</option>
+          <option value="Africa/Johannesburg">Johannesburg</option>
         </select>
       </form>
       <div class="cities-container">
-        <div class="city" id="london">
-          <div>
-            <h3 class="name">London</h3>
-            <div class="date"></div>
-          </div>
-          <div class="time"></div>
-        </div>
-        <div class="city" id="cancun">
-          <div>
-            <h3 class="name">Cancún</h3>
-            <div class="date"></div>
-          </div>
-          <div class="time"></div>
-        </div>
+        <div id="cities"></div>
       </div>
     </div>
     <footer>
