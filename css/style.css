@@ -11,7 +11,7 @@ body {
   margin: 50px auto 10px;
   background: #fc5454;
   border: 1mm solid black;
-  box-shadow: rgba(0, 0, 0, 0.607) 0px 5px 20px;
+  box-shadow: #0000009b 0px 5px 20px;
 }
 
 h1 {
@@ -49,7 +49,7 @@ select {
   display: block;
   margin: 10px auto 25px;
   padding: 5px;
-  border: 0.2mm solid rgb(52, 52, 52);
+  border: 0.2mm solid #343434;
   border-radius: 1mm;
   font-family: "Noto Sans JP", sans-serif;
 }
@@ -58,7 +58,7 @@ select {
   max-width: 80%;
   margin: 20px auto 30px;
   padding: 10px 30px;
-  background: rgb(232, 230, 230);
+  background: #e8e6e6;
   border: 0.6mm solid black;
   border-right: 2mm solid black;
   border-bottom: 2mm solid black;
@@ -69,7 +69,7 @@ select {
   display: flex;
   justify-content: space-between;
   padding: 30px 10px;
-  border-bottom: 2px dotted rgba(0, 0, 0, 0.2);
+  border-bottom: 2px dotted #00000033;
 }
 
 .city:last-child {
