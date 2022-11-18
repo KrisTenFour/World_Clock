@@ -96,6 +96,10 @@ select {
   font-size: 18px;
 }
 
+#back-link {
+  margin-top: 10px;
+}
+
 footer {
   text-align: center;
   font-size: 14px;
