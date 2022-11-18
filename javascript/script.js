@@ -19,15 +19,27 @@ function updateTime() {
       .format("HH:mm:ss [<small>] A[</small>]");
   }
 
-  //Cancún
-  let cancunElement = document.querySelector("#cancun");
-  if (cancunElement) {
-    let cancunDateElement = cancunElement.querySelector(".date");
-    let cancunTimeElement = cancunElement.querySelector(".time");
+  //Tokyo
+  let tokyoElement = document.querySelector("#tokyo");
+  if (tokyoElement) {
+    let tokyoDateElement = tokyoElement.querySelector(".date");
+    let tokyoTimeElement = tokyoElement.querySelector(".time");
 
-    cancunDateElement.innerHTML = moment().format("MMMM Do, YYYY");
-    cancunTimeElement.innerHTML = moment()
-      .tz("America/Cancun")
+    tokyoDateElement.innerHTML = moment().format("MMMM Do, YYYY");
+    tokyoTimeElement.innerHTML = moment()
+      .tz("Asia/Tokyo")
+      .format("HH:mm:ss [<small>] A[</small>]");
+  }
+
+  //New york
+  let newYorkElement = document.querySelector("#new-york");
+  if (newYorkElement) {
+    let newYorkDateElement = newYorkElement.querySelector(".date");
+    let newYorkTimeElement = newYorkElement.querySelector(".time");
+
+    newYorkDateElement.innerHTML = moment().format("MMMM Do, YYYY");
+    newYorkTimeElement.innerHTML = moment()
+      .tz("America/New_York")
       .format("HH:mm:ss [<small>] A[</small>]");
   }
 }
