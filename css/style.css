@@ -1,15 +1,15 @@
 body {
   background: url("../media/body-background.jpg") fixed;
-  background-repeat: no-repeat;
+  background-size: cover; 
   background-position: center;
-  background-size: cover;
+  background-repeat: no-repeat;
   font-family: "Noto Sans JP", sans-serif;
 }
 
 .container {
   max-width: 750px;
   margin: 50px auto 10px;
-  background-color: #fc5454;
+  background: #fc5454;
   border: 1mm solid black;
   box-shadow: rgba(0, 0, 0, 0.607) 0px 5px 20px;
 }
@@ -19,10 +19,10 @@ h1 {
   display: block;
   margin: 30px auto 0;
   transform: skew(-13deg);
+  background: #ffffff;
   border: 1mm solid black;
   border-right: 2mm solid black;
   border-bottom: 2mm solid black;
-  background: #ffffff;
   text-align: center;
   font-size: 52px;
 }
@@ -30,22 +30,18 @@ h1 {
 h2 {
   width: 40%;
   margin: 20px auto;
-  text-align: center;
+  background: #ffffffd8;
   border: 1mm solid black;
   border-right: 2mm solid black;
   border-bottom: 2mm solid black;
   border-radius: 4mm;
-  background: #ffffffd8;
+  text-align: center;
   font-size: 46px;
   font-weight: normal;
 }
 
 h2 small {
   font-size: 28px;
-}
-
-h3 {
-  margin: 0;
 }
 
 select {
@@ -62,11 +58,11 @@ select {
   max-width: 80%;
   margin: 20px auto 30px;
   padding: 10px 30px;
+  background: rgb(232, 230, 230);
   border: 0.6mm solid black;
   border-right: 2mm solid black;
   border-bottom: 2mm solid black;
   border-radius: 4mm;
-  background-color: rgb(232, 230, 230);
 }
 
 .city {
@@ -82,6 +78,7 @@ select {
 
 .name {
   font-size: 30px;
+  font-weight: 700;
 }
 
 .date {
