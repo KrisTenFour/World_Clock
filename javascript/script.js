@@ -1,5 +1,5 @@
 function updateCurrentTime() {
-  //Current
+  //The displayed current time
   let currentTimeElement = document.querySelector("#current-time");
   currentTimeElement.innerHTML = moment().format(
     "H:mm:ss [<small>] A[</small>]"
