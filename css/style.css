@@ -5,7 +5,7 @@
 
 body {
   background: url("../media/body-background.jpg") fixed;
-  background-size: cover; 
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   font-family: "Noto Sans JP", sans-serif;
@@ -19,7 +19,8 @@ body {
   box-shadow: #0000009b 0px 5px 20px;
 }
 
-h1, h2 {
+h1,
+h2 {
   border: var(--border);
   border-right: var(--border-shadow);
   border-bottom: var(--border-shadow);
@@ -192,22 +193,26 @@ footer {
     border: 0.5mm solid black;
     border-right: var(--border);
     border-bottom: var(--border);
-    font-size: 34px;
+    font-size: 36px;
+  }
+
+  h2,
+  .time {
+    font-size: 30px;
   }
 
   h2 {
     border: 0.5mm solid black;
     border-right: var(--border);
     border-bottom: var(--border);
-    font-size: 24px;
   }
 
   h2 small {
-    font-size: 16px;
+    font-size: 18px;
   }
 
   #cities-select {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .cities-container {
@@ -218,18 +223,11 @@ footer {
   }
 
   .name {
-    font-size: 18px;
+    font-size: 24px;
   }
 
-  .date {
-    font-size: 11px;
-  }
-
-  .time {
-    font-size: 23px;
-  }
-
+  .date,
   footer {
-    font-size: 10px;
+    font-size: 12px;
   }
 }

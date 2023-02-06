@@ -1,82 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap"
-      rel="stylesheet"
-    />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.39/moment-timezone-with-data-1970-2030.min.js"></script>
-    <link rel="stylesheet" href="css/style.css" />
-    <title>World clock 🕐🌐</title>
-  </head>
-  <body>
-    <div class="container">
-      <h1>World Clock</h1>
-      <h2 id="current-time">
-        21:58:20
-        <small>PM</small>
-      </h2>
-      
-      <form action="#">
-        <select name="city" id="cities-select">
-          <option value="" selected>Select a city...</option>
-          <option value="current">My current location</option>
-          <option value="Europe/Copenhagen">Copenhagen</option>
-          <option value="Asia/Istanbul">Istanbul</option>
-          <option value="America/Los_Angeles">Los Angeles</option>
-          <option value="America/Chicago">Chicago</option>
-          <option value="Asia/Singapore">Singapore</option>  
-        </select>
-      </form>
-      
-      <div class="cities-container">
-       <div id="cities">
-         <div class="city" id="new-york">
-           <div>
-             <div class="name">New York</div>
-             <div class="date"></div>
-           </div>
-           <div class="time"></div>
-         </div>
-         <div class="city" id="london">
-           <div>
-            <div class="name">London</div>
-             <div class="date"></div>
-           </div>
-            <div class="time"></div>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.39/moment-timezone-with-data-1970-2030.min.js"></script>
+  <link rel="stylesheet" href="css/style.css" />
+  <title>World clock 🕐🌐</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>World Clock</h1>
+    <h2 id="current-time">
+      21:58:20
+      <small>PM</small>
+    </h2>
+
+    <form action="#">
+      <select name="city" id="cities-select">
+        <option value="" selected>Select a city...</option>
+        <option value="current">My current location</option>
+        <option value="Europe/Copenhagen">Copenhagen</option>
+        <option value="Asia/Istanbul">Istanbul</option>
+        <option value="America/Los_Angeles">Los Angeles</option>
+        <option value="America/Chicago">Chicago</option>
+        <option value="Asia/Singapore">Singapore</option>
+      </select>
+    </form>
+
+    <div class="cities-container">
+      <div id="cities">
+        <div class="city" id="new-york">
+          <div>
+            <div class="name">New York</div>
+            <div class="date"></div>
           </div>
-         <div class="city" id="tokyo">
-            <div>
-              <div class="name">Tokyo</div>
-               <div class="date"></div>
-             </div>
-             <div class="time"></div>
-           </div>
+          <div class="time"></div>
         </div>
+        <div class="city" id="london">
+          <div>
+            <div class="name">London</div>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
         </div>
+        <div class="city" id="tokyo">
+          <div>
+            <div class="name">Tokyo</div>
+            <div class="date"></div>
+          </div>
+          <div class="time"></div>
+        </div>
+      </div>
     </div>
-    <footer>
-      This page was coded by
-      <strong>Kristen Namigai</strong>
-      🧝🏻‍♀️ and is
-      <a href="https://github.com/KrisTenFour/World_Clock" target="_blank">
-        <strong>open-sourced on GitHub</strong></a
-      >. <br />
-      <small>Background image by</small>
-      <a
-        href="https://www.freepik.com/free-vector/yellow-comic-background-retro-vector-illustration_34294137.htm#page=3&query=comic%20pattern&position=20&from_view=keyword"
-        target="_blank"
-      >
-        <small> flatart</small></a
-      >
-      <small>on Freepik.</small>
-    </footer>
-    <script src="javascript/script.js"></script>
-  </body>
+  </div>
+  <footer>
+    This page was coded by
+    <strong>Kristen Namigai</strong>
+    🧝🏻‍♀️ and is
+    <a href="https://github.com/KrisTenFour/World_Clock" target="_blank">
+      <strong>open-sourced on GitHub</strong></a> <br />
+    <small>Background image by</small>
+    <a href="https://www.freepik.com/free-vector/yellow-comic-background-retro-vector-illustration_34294137.htm#page=3&query=comic%20pattern&position=20&from_view=keyword"
+      target="_blank">
+      <small> flatart</small></a>
+    <small>on Freepik</small>
+  </footer>
+  <script src="javascript/script.js"></script>
+</body>
+
 </html>
