@@ -193,12 +193,12 @@ footer {
     border: 0.5mm solid black;
     border-right: var(--border);
     border-bottom: var(--border);
-    font-size: 36px;
+    font-size: 38px;
   }
 
   h2,
   .time {
-    font-size: 30px;
+    font-size: 32px;
   }
 
   h2 {
