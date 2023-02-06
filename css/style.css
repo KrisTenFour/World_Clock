@@ -180,6 +180,10 @@ footer {
   .time {
     font-size: 32px;
   }
+
+  #back-link {
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 470px) {
