@@ -230,6 +230,10 @@ footer {
     font-size: 24px;
   }
 
+  #back-link {
+    font-size: 12px;
+  }
+
   .date,
   footer {
     font-size: 12px;
