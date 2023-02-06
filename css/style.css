@@ -134,6 +134,10 @@ footer {
     font-size: 34px;
   }
 
+  #back-link {
+    margin-bottom: 5px;
+  }
+
   footer {
     font-size: 12px;
   }
@@ -231,6 +235,7 @@ footer {
   }
 
   #back-link {
+    margin-bottom: 5px;
     font-size: 12px;
   }
 
