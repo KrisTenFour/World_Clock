@@ -206,7 +206,7 @@ footer {
 
   h2,
   .time {
-    font-size: 30px;
+    font-size: 23px;
   }
 
   h2 {
@@ -215,8 +215,9 @@ footer {
     border-bottom: var(--border);
   }
 
-  h2 small {
-    font-size: 18px;
+  h2 small,
+  .time small {
+    font-size: 16px;
   }
 
   #cities-select {
@@ -230,8 +231,17 @@ footer {
     border-bottom: var(--border);
   }
 
+  .city {
+    word-break: break-all;
+  }
+
   .name {
-    font-size: 24px;
+    font-size: 17px;
+  }
+
+  .name,
+  .date {
+    margin-right: 14px;
   }
 
   #back-link {
